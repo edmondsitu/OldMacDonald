@@ -4,11 +4,11 @@ class Chick implements Animal
 	private String myType;
 	private String mySound;
 	private String mySecSound;
-	Chick(String type, String sound)
+	Chick(String type, String soundOne, String soundTwo)
 	{
 		myType = type;
-		mySound = sound;
-		mySecSound = "cheep";
+		mySound = soundOne;
+		mySecSound = soundTwo;
 	}
 	Chick()
 	{
